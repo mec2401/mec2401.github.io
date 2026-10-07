@@ -649,3 +649,40 @@ html.project-window-active { overflow: hidden; }
   .course-file h3 { min-height: 0; }
   .course-file p, .course-file-label, .course-file-label span:last-child, .course-file-footer, .course-file-number { color: #333; }
 }
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+
+  background: var(--soft);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.social-link img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.social-link:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.social-link:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 4px;
+}

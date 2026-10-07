@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#060c17">
   <title>Melinda Chen — CS + Psychology</title>
   <meta name="description" content="Melinda Chen’s personal portfolio: psychology, statistics, computer science, research, and creative curiosity.">
-  <meta property="og:title" content="Melinda Chen — People, Data &amp; Systems">
-  <meta property="og:description" content="A curious mind at the intersection of people, data, and systems. Explore my projects, experience, and creative interests.">
+  <meta property="og:title" content="Melinda Chen">
+  <meta property="og:description" content="Welcome! Explore my projects, experience, and creative interests.">
   <meta property="og:type" content="website">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23060c17'/%3E%3Cpath d='M15 44V20h5l12 17 12-17h5v24h-6V30L32 46 21 30v14z' fill='%2358f5ff'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
@@ -36,7 +36,7 @@
   <main id="main">
     <section class="hero wrap" id="home" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow intro-kicker">Welcome to my world! </p>
+        <p class="eyebrow intro-kicker">Operation Doppelgänger is now live.</p>
         <h1 id="hero-title">Howdy, I’m<br><em>Melinda.</em></h1>
         <p class="hero-intro">I’m a Georgia Tech computer science student with a background in psychology and statistics. I’m interested in people, data, and how things work.</p>
         <a class="button primary" href="#work">See my work</a><a class="button secondary" href="resume.html">My résumé</a>
@@ -45,6 +45,7 @@
       <div class="hero-art slideshow" id="off-the-clock" role="region" aria-roledescription="carousel" aria-labelledby="off-the-clock-title">
         <h2 class="slideshow-title" id="off-the-clock-title">Off the clock</h2>
         <div class="slides" id="creative-slides">
+          <!--
           <figure class="slide" role="group" aria-roledescription="slide" aria-label="1 of 3">
             <div class="art-frame"><img src="assets/curiosity-collage.webp" alt="A blue ribbon connects a pressed flower, graph paper, and a pencil network sketch on ivory paper." width="1536" height="1024" fetchpriority="high"></div>
             <figcaption class="slide-description"><h3 class="slide-title">Daily lore</h3>
@@ -60,10 +61,39 @@
             <figcaption class="slide-description"><h3 class="slide-title">Color &amp; character</h3>
               <p class="slide-body">Fashion, art, and imaginative stories. I’m drawn to things with a little personality.</p></figcaption>
           </figure>
+        -->
+        <figure class="slide" role="group" aria-roledescription="slide" aria-label="1 of 4">
+          <div class="art-frame"><img src="assets/books.png" alt="pic of a book i was reading while waiting for car state inspection." width="1536" height="1024" fetchpriority="high"></div>
+          <figcaption class="slide-description"><h3 class="slide-title">Reading</h3>
+            <p class="slide-body">I love reading both fiction and nonfiction. My favorite books are: Why We Sleep by Matthew Walker, Outliers by Malcolm Gladwell, Hunger Games by Suzanne Collins, Brave New World by Aldous Huxley, and Atomic Habits by James Clear. Right now I’m reading Thinking, Fast and Slow by Daniel Kahneman, winner of Nobel Prize in Economics. Open to book recommendations!</p></figcaption>
+        </figure>
+        <figure class="slide" role="group" aria-roledescription="slide" aria-label="2 of 4" hidden>
+          <div class="art-frame"><img src="assets/archery.png" alt="me doing archery in undergrad" width="1536" height="1024" loading="lazy"></div>
+          <figcaption class="slide-description"><h3 class="slide-title">Sports &amp; Exercise</h3>
+            <p class="slide-body">I had always considered myself an indoors person, but in college I fell in love with working out. (Shoutout to Coach Teri for encouraging me to prioritize exercise as part of my daily routine!) Ice skating. Inline skating. Archery. Boxing. Brazilian Jiu-Jitsu. Running. Pilates. Dance. Oh, and the occasional paddleboarding. I love trying new ways to stay fit. That’s me practicing with my recurve bow in the image above!</p></figcaption>
+        </figure>
+        <figure class="slide" role="group" aria-roledescription="slide" aria-label="3 of 4" hidden>
+          <div class="art-frame">
+            <img src="assets/watercolorart.png" 
+            alt="watercolor painting of matcha latte made by yours truly" 
+            width="1536" height="1024" 
+            style="object-position: center 37%;"
+            loading="lazy"></div>
+          <figcaption class="slide-description"><h3 class="slide-title">Art</h3>
+            <p class="slide-body">I won District Rodeo Art 2x for horse drawings in elementary school. Learned sketching/colored pencil in elementary school and acrylic painting in middle school. Currently learning watercolor…I actually painted that matcha latte recently in the image above.</p></figcaption>
+        </figure>
+        <figure class="slide" role="group" aria-roledescription="slide" aria-label="4 of 4" hidden>
+          <div class="art-frame">
+            <img src="assets/violin image from google.jpg" 
+            alt="yes i do in fact play instruments" width="1536" height="1024" loading="lazy"></div>
+          <figcaption class="slide-description"><h3 class="slide-title">Music</h3>
+            <p class="slide-body">I played violin since I was 8 years old and piano since I was 10. My next conquest is vocal training. I want to learn how to sing!</p></figcaption>
+        </figure>
         </div>
         <div class="slideshow-controls">
-          <div class="slide-dots" aria-label="Choose a slide"><button type="button" class="slide-dot" data-slide="0" aria-label="Show slide 1: Daily lore" aria-current="true"></button><button type="button" class="slide-dot" data-slide="1" aria-label="Show slide 2: A little imperfect"></button><button type="button" class="slide-dot" data-slide="2" aria-label="Show slide 3: Color and character"></button></div>
-          <span class="slide-counter" aria-live="off">01 / 03</span>
+          <div class="slide-dots" aria-label="Choose a slide">
+            <button type="button" class="slide-dot" data-slide="0" aria-label="Show slide 1: Reading" aria-current="true"></button><button type="button" class="slide-dot" data-slide="1" aria-label="Show slide 2: Sports &amp; Exercise"></button><button type="button" class="slide-dot" data-slide="2" aria-label="Show slide 3: Art"></button><button type = "button" class = "slide-dot" data-slide = "3" aria-label = "Show slide 4: Music"></button></div>
+          <span class="slide-counter" aria-live="off">01 / 04</span>
           <div class="slide-navigation"><button type="button" data-action="previous" aria-label="Previous slide">Previous</button><button type="button" data-action="next" aria-label="Next slide">Next</button></div>
         </div>
         <div class="slideshow-playback"><button type="button" class="play-button" aria-pressed="false">Play slideshow</button><span class="sr-only slide-announcement" aria-live="polite" aria-atomic="true"></span></div>
@@ -139,7 +169,9 @@
       </ol>
       </div>
     </section>
+<!--
     <section class="learning-section wrap" aria-labelledby="learning-title"><div class="learning-label"><p class="eyebrow">The next chapter</p><span class="chapter-number" aria-hidden="true">&amp;</span></div><div><h2 id="learning-title">Learning the systems<br>behind the experience.</h2><p>Alongside research and design, I’m building my understanding of computer networks, operating systems, algorithms, and Python. I like taking a complicated idea apart until the moving pieces make sense.</p><div class="learning-topics"><span>Computer networks</span><span>Operating systems</span><span>Algorithms</span></div></div></section>
+-->
     <section class="courses-section wrap" id="courses" aria-labelledby="courses-title">
       <div class="courses-heading"><div><p class="eyebrow courses-eyebrow">Knowledge archive</p><h2 id="courses-title">Relevant courses</h2></div><button type="button" class="course-playback" id="course-playback" aria-controls="course-ticker" aria-pressed="false" hidden><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="course-pause-icon" d="M9 4H6v16h3zM18 4h-3v16h3z"/><path class="course-play-icon" d="m7 4 14 8-14 8z"/></svg><span>Pause scroll</span></button></div>
       <div class="course-ticker" id="course-ticker" tabindex="0" role="region" aria-labelledby="courses-title" aria-describedby="courses-scroll-help">
@@ -147,16 +179,52 @@
           <ul class="course-group" id="course-group">
                 <li class="course-file"><div class="course-file-label"><span>FILE 01</span><span>Computing</span></div><h3>Computer Networks</h3><p>Routing, transport protocols, and how the Internet connects.</p><div class="course-file-footer"><span>Georgia Tech</span><span class="course-file-number" aria-hidden="true">01</span></div></li>
                 <li class="course-file"><div class="course-file-label"><span>FILE 02</span><span>Design</span></div><h3>Human-Computer Interaction</h3><p>Needfinding, prototyping, and evaluating the user experience.</p><div class="course-file-footer"><span>Georgia Tech</span><span class="course-file-number" aria-hidden="true">02</span></div></li>
-                <li class="course-file"><div class="course-file-label"><span>FILE 03</span><span>Mathematics</span></div><h3>Linear Algebra</h3><p>Matrices, vectors, and linear transformations.</p><div class="course-file-footer"><span>Math foundation</span><span class="course-file-number" aria-hidden="true">03</span></div></li>
-                <li class="course-file"><div class="course-file-label"><span>FILE 04</span><span>Mathematics</span></div><h3>Multivariate Calculus</h3><p>Partial derivatives, gradients, and multiple integrals.</p><div class="course-file-footer"><span>Math foundation</span><span class="course-file-number" aria-hidden="true">04</span></div></li>
+                <li class="course-file"><div class="course-file-label"><span>FILE 03</span><span>Mathematics</span></div><h3>Linear Algebra</h3><p>Matrices, vectors, and linear transformations.</p><div class="course-file-footer"><span>Texas A&M</span><span class="course-file-number" aria-hidden="true">03</span></div></li>
+                <li class="course-file"><div class="course-file-label"><span>FILE 04</span><span>Mathematics</span></div><h3>Multivariate Calculus</h3><p>Partial derivatives, gradients, and multiple integrals.</p><div class="course-file-footer"><span>Texas A&M</span><span class="course-file-number" aria-hidden="true">04</span></div></li>
+                <li class="course-file"><div class="course-file-label"><span>FILE 05</span><span>Computing</span></div><h3>Data Science</h3><p>Python, SQL, Pandas, NumPy.</p><div class="course-file-footer"><span>Texas A&M</span><span class="course-file-number" aria-hidden="true">05</span></div></li>
+                <li class="course-file"><div class="course-file-label"><span>FILE 06</span><span>Computing</span></div><h3>Intro to Operating Systems</h3><p>Process/memory management, abstraction/arbitration, socket coding.</p><div class="course-file-footer"><span>Georgia Tech</span><span class="course-file-number" aria-hidden="true">06</span></div></li>
+                <li class="course-file"><div class="course-file-label"><span>FILE 07</span><span>Statistics</span></div><h3>Statistical Computing</h3><p>Using R and Markdown to analyze regression models.</p><div class="course-file-footer"><span>Texas A&M</span><span class="course-file-number" aria-hidden="true">07</span></div></li>
+                <li class="course-file"><div class="course-file-label"><span>FILE 08</span><span>Psychology</span></div><h3>Organizational (I/O) Psychology</h3><p>Exploring behavior in organizational settings (workplace, management, teamwork).</p><div class="course-file-footer"><span>Texas A&M</span><span class="course-file-number" aria-hidden="true">08</span></div></li>
+                <li class="course-file"><div class="course-file-label"><span>FILE 09</span><span>Neuroscience</span></div><h3>Neuroscience of Learning and Memory</h3><p>How brain systems support adaptive behavior and memory formation.</p><div class="course-file-footer"><span>Texas A&M</span><span class="course-file-number" aria-hidden="true">04</span></div></li>
           </ul>
         </div>
       </div>
       <p class="courses-scroll-help" id="courses-scroll-help">Hover or focus to pause. Use Pause scroll to browse by hand.</p>
     </section>
-    <section class="contact-section wrap" id="contact" aria-labelledby="contact-title"><div class="contact-grid"><h2 id="contact-title">Say hello</h2><div><p>For research, analytics, or a thoughtful collaboration, I’d love to hear from you.</p><a class="button primary" href="mailto:mchen784@gatech.edu">Email Melinda</a><a class="email-text" href="mailto:mchen784@gatech.edu">mchen784@gatech.edu</a></div></div></section>
+    <!--
+    <section class="contact-section wrap" id="contact" aria-labelledby="contact-title"><div class="contact-grid"><h2 id="contact-title">Say hello</h2><div><p>Let's connect! Always open to learning and new roles.</p><a class="button primary" href="mailto:mchen784@gatech.edu">Email Melinda</a><a class="email-text" href="mailto:mchen784@gatech.edu">mchen784@gatech.edu</a></div></div></section>
+    -->
+    <section class="contact-section wrap" id="contact" aria-labelledby="contact-title"><div class="contact-grid"><h2 id="contact-title">Say hello</h2><div><p>Let's connect! Always open to learning and new roles.</p>
+      <div class="social-links">
+        
+        <a class="social-link"
+           href="https://www.linkedin.com/in/melinda-chen/"
+           target="_blank"
+           rel="noopener noreferrer">
+          <img src="assets/linkedin.svg" alt="">
+          <!-- <span>LinkedIn</span> -->
+        </a>
+      
+        <a class="social-link" href="mailto:mchen784@gatech.edu">
+          <img src="assets/envelope.svg" alt="">
+          <!-- <span>Email</span> -->
+        </a>
+
+        <a class="social-link"
+           href="https://github.com/mec2401"
+           target="_blank"
+           rel="noopener noreferrer">
+          <img src="assets/github.svg" alt="">
+          <!-- <span>GitHub</span> -->
+        </a>
+
+      </div>          
+      <i><p style="font-size: 12px; opacity: 0.5;"><small>*Protocol: right click and click "Copy Email Address" to access my email.</small></p></i>
+
+    </div></div></section>
+    
   </main>
-  <footer class="site-footer wrap"><a class="footer-name" href="index.html">Melinda Chen<span aria-hidden="true"> ✳</span></a><p>People, data &amp; systems.</p><span>© 2026</span></footer>
+  <footer class="site-footer wrap"><a class="footer-name" href="index.html">Melinda Chen<span aria-hidden="true"> ✳</span></a><p>Persona copied, objective achieved. Operation Doppelgänger has now concluded. </p><span>© 2026</span></footer>
   <script src="slideshow.js" defer></script>
   <script src="site.js" defer></script>
 </body>
