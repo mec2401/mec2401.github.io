@@ -597,7 +597,23 @@ html.project-window-active { overflow: hidden; }
   .vault-window { display: none !important; }
   .dossier-meta { margin-bottom: 18px; }
 }
+.project-demo {
+  margin: 24px 0;
+}
 
+.project-demo video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: #0d1422;
+}
+
+.project-demo figcaption {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  color: #4b6072;
+}
 /* Relevant courses: a continuous, seamless horizontal archive ticker. */
 .courses-section { padding-block: 28px 64px; }
 .courses-heading { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 25px; }

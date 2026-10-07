@@ -224,7 +224,7 @@
     }
     if (hasVault) {
       unlock.addEventListener('click', unlockVault);
-      seal.addEventListener('click', () => { closeProject(); setVaultOpen(false, true); });
+      seal.addEventListener('click', () => { dialog.querySelectorAll('video').forEach(video => video.pause());closeProject(); setVaultOpen(false, true); });
       if (vaultMotion.addEventListener) vaultMotion.addEventListener('change', event => {
         if (event.matches && vaultTimer) setVaultOpen(true);
       });
