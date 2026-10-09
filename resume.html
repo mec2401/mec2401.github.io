@@ -12,20 +12,128 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23060c17'/%3E%3Cpath d='M15 44V20h5l12 17 12-17h5v24h-6V30L32 46 21 30v14z' fill='%2358f5ff'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="page-resume">
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header wrap"><a class="wordmark" href="index.html" aria-label="Melinda Chen, home"><span class="monogram" aria-hidden="true">m.</span><span>Melinda Chen</span></a><nav aria-label="Main navigation"><a href="index.html#work">Work</a><a href="index.html#timeline">Timeline</a><a href="index.html#courses">Courses</a><a href="index.html#off-the-clock">Off the clock</a><a href="resume.html" aria-current="page">Résumé</a></nav></header>
+<header class="site-header wrap">
+  <a class="wordmark" href="index.html" aria-label="Melinda Chen, home"><span class="monogram" aria-hidden="true">m.</span><span>Melinda Chen</span></a><nav aria-label="Main navigation">
+    <a href="index.html#off-the-clock">Off the clock</a>    
+    <a href="index.html#work">Work</a>
+    <a href="index.html#timeline">Timeline</a>
+    <a href="index.html#courses">Courses</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="resume.html" class="nav-resume" aria-current="page">Résumé</a>
+  </nav></header>
 <main id="main">
-<section class="page-intro wrap resume-intro" aria-labelledby="resume-title"><div><h1 id="resume-title">My résumé</h1><p class="page-description">Check out my progress.</p></div><div class="page-actions"><button type="button" class="button primary" data-print-resume>Print résumé</button><a class="text-link" href="mailto:mchen784@gatech.edu">mchen784@gatech.edu</a></div></section>
-<div class="wrap resume-sheet"><header class="resume-document-heading"><div><h2>Melinda Chen</h2><p>Psychology · Statistics · Computer science</p></div><p>Houston, Texas<br><a href="mailto:mchen784@gatech.edu">mchen784@gatech.edu</a></p></header>
+  <section class="page-intro wrap resume-intro"
+         aria-labelledby="resume-title">
+  <div>
+    <h1 id="resume-title">My résumé</h1>
+    <p class="page-description">Check out my progress.</p>
+  </div>
+
+  <div class="page-actions">
+    <!-- <a class="text-link" href="mailto:mchen784@gatech.edu">
+      mchen784@gatech.edu
+    </a> -->
+    <a 
+      class="button primary"
+      href="assets/resume_mchen.pdf"
+      target="_blank"
+      rel="noopener"
+    >
+      Preview résumé
+    </a>
+  </div>
+</section>
+
+<!-- <section class="wrap" aria-label="Résumé PDF preview"
+         style="margin-top: 24px; margin-bottom: 40px;">
+  <iframe
+    src="assets/resume_mchen.pdf"
+    title="Melinda Chen’s résumé"
+    style="display: block; width: 100%; height: 85vh;
+           border: 0; border-radius: 12px; background: white;"
+  ></iframe>
+
+  <p>
+    <a class="text-link"
+       href="assets/resume_mchen.pdf"
+       target="_blank"
+       rel="noopener">
+      Open PDF in a new tab
+    </a>
+  </p>
+</section> -->
+
+<!-- <section class="page-intro wrap resume-intro" aria-labelledby="resume-title"><div><h1 id="resume-title">My résumé</h1><p class="page-description">Check out my progress.</p></div><div class="page-actions">
+  
+    <!-- this line below is for print resume from built-in html page -->
+    <!-- <button type="button" class="button primary" data-print-resume>Print résumé</button><a class="text-link" href="mailto:mchen784@gatech.edu">mchen784@gatech.edu</a></div></section> -->
+    <!-- <button
+    type="button"
+    class="button primary"
+    onclick="document.getElementById('resume-preview').showModal()"
+    >
+    Preview résumé
+    </button>
+      <dialog
+        id="resume-preview"
+        aria-label="Résumé preview"
+        style="width: min(900px, 92vw); padding: 20px; border: 0;
+              border-radius: 16px; background: #101827; color: white;"
+      >
+        <form method="dialog" style="text-align: right; margin-bottom: 12px;">
+          <button type="submit" class="button" autofocus>Close</button>
+        </form>
+
+        <iframe
+          src="assets/resume_mchen.pdf"
+          title="Melinda Chen’s résumé"
+          style="display: block; width: 100%; height: 65vh;
+                border: 0; background: white;"
+        ></iframe>
+
+        <p>
+          <a class="text-link"
+            href="assets/resume_mchen.pdf"
+            target="_blank"
+            rel="noopener">
+            Open PDF in a new tab
+          </a>
+        </p>
+      </dialog>
+      <section class="wrap" aria-label="Résumé PDF preview"
+      style="margin-top: 24px; margin-bottom: 40px;">  -->
+  
+<!--******* built-in preview of resume on html page ***********-->
+<!-- <iframe
+src="assets/resume_mchen.pdf"
+title="Melinda Chen’s résumé"
+style="display: block; width: 100%; height: 85vh;
+      border: 0; border-radius: 12px; background: white;"
+></iframe>
+
+<p>
+<a class="text-link"
+  href="assets/resume_mchen.pdf"
+  target="_blank"
+  rel="noopener">
+ Open PDF in a new tab
+</a>
+</p>
+</section> -->
+
+  <div class="wrap resume-sheet"><header class="resume-document-heading"><div><h2>Melinda Chen</h2><p>Psychology · Statistics · Computer science</p></div><p>Houston, Texas<br><a href="mailto:mchen784@gatech.edu">mchen784@gatech.edu</a></p></header>
 <div class="resume-grid"><aside class="resume-sidebar" aria-label="Education and qualifications">
-<section aria-labelledby="resume-education"><h3 id="resume-education">Education</h3><div class="resume-school"><h4>Georgia Institute of Technology</h4><p>M.S. in Computer Science</p><p class="resume-muted">January 2026–Present<br>Online Master of Science in Computer Science</p></div><div class="resume-school"><h4>Texas A&amp;M University</h4><p>B.S. in Psychology<br>Minor in Statistics</p><p class="resume-muted">December 2024</p></div></section>
+<section aria-labelledby="resume-education"><h3 id="resume-education">Education</h3><div class="resume-school"><h4>Georgia Institute of Technology</h4><p>M.S. in Computer Science</p><p class="resume-muted">January 2026–Present</p></div><div class="resume-school"><h4>Texas A&amp;M University</h4><p>B.S. in Psychology<br>Minor in Statistics</p><p class="resume-muted">December 2024</p></div></section>
 <section aria-labelledby="resume-skills"><h3 id="resume-skills">Skills</h3><h4>Programming &amp; systems</h4><p>Python, R, SQL, Java, C / C++, Linux, HTML, Markdown</p><h4>Research &amp; analysis</h4><p>Network analysis, clustering, regression, research data collection, literature reviews, Jamovi</p><h4>Design &amp; productivity</h4><p>Procreate, Microsoft Office, spreadsheets, lecture preparation, academic feedback</p></section>
 <section aria-labelledby="resume-honors"><h3 id="resume-honors">Honors</h3><ul class="resume-plain-list"><li>Brockman Scholarship<span>Full-ride merit scholarship</span></li><li>Dean’s Achievement Scholar</li><li>College of Arts and Science Distinguished Student<span>Fall 2020</span></li></ul></section>
 </aside><div class="resume-main">
 <section aria-labelledby="resume-experience"><h3 id="resume-experience">Selected experience</h3>
 <article class="resume-job"><div class="resume-job-heading"><h4>Community Manager</h4><span>Started Sep 2025</span></div><p class="resume-organization">FGCombo · Remote</p><ul><li>Conducted outreach to gaming community members, players, organizers, and esports professionals to support platform adoption.</li><li>Tracked outreach and user interactions using spreadsheets.</li><li>Supported player profile and tournament data maintenance through SQL queries.</li></ul></article>
-<article class="resume-job"><div class="resume-job-heading"><h4>Crumbl</h4><span>Dec 2025-Aug 2026</span></div><p class="resume-organization"></p><ul><li>Conducted outreach to gaming community members, players, organizers, and esports professionals to support platform adoption.</li><li>Tracked outreach and user interactions using spreadsheets.</li><li>Supported player profile and tournament data maintenance through SQL queries.</li></ul></article>
+<article class="resume-job"><div class="resume-job-heading"><h4>Baker</h4><span>Dec 2025-Aug 2026</span></div><p class="resume-organization">Crumbl</p><ul><li>Produced 700+ cookies daily while maintaining strict quality and consistency standards</li><li>Processed 50-100+ customer transactions per shift in a fast-paced retail environment</li><li>Managed 6+ operational tasks simultaneously (baking, cashiering, order prep, catering, curbside delivery, cleaning,
+  phone calls), improving efficiency during peak hours</li></ul></article>
 <article class="resume-job"><div class="resume-job-heading"><h4>Teaching Assistant · Psychology of Culture</h4><span>Aug–Dec 2024</span></div><p class="resume-organization">Texas A&amp;M University · Teaching Scholars Association</p><ul><li>Collaborated on lecture materials and presented to classes of more than 100 students.</li><li>Led weekly office hours and supported student learning.</li><li>Graded APA research papers and provided constructive academic writing feedback.</li></ul></article>
 <article class="resume-job"><div class="resume-job-heading"><h4>Teaching Assistant · Clinical Psychology</h4><span>Jan–May 2024</span></div><p class="resume-organization">Texas A&amp;M University · Graduate course</p><ul><li>Helped curate client cases for Clinical Ethics and Techniques.</li><li>Participated in structured mock-client sessions with five Ph.D. clinical psychology students.</li></ul></article>
 <article class="resume-job"><div class="resume-job-heading"><h4>Cognitive Neuroscience Research Assistant</h4><span>Aug 2023–May 2024</span></div><p class="resume-organization">CONGA Lab · Texas A&amp;M University</p><ul><li>Interpreted neuroimaging data with R packages and Python.</li><li>Worked with EEG and eye-tracking equipment to support behavioral data collection.</li><li>Assisted with literature reviews for research publication development.</li></ul></article>

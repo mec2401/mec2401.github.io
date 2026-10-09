@@ -702,3 +702,19 @@ html.project-window-active { overflow: hidden; }
   outline: 2px solid var(--blue);
   outline-offset: 4px;
 }
+nav a.nav-resume {
+  font-weight: 700;
+  color: #7dd3fc;
+}
+
+.resume-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.resume-intro .page-actions {
+  margin-left: auto;
+}

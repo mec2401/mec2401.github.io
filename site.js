@@ -1,6 +1,51 @@
 (() => {
   document.querySelectorAll('[data-print-resume]').forEach(button => {
-    button.addEventListener('click', () => window.print());
+    // button.addEventListener('click', () => window.print());
+    button.addEventListener('click', () => {
+      let preview = document.getElementById('resume-pdf-preview');
+    
+      if (!preview) {
+        preview = document.createElement('dialog');
+        preview.id = 'resume-pdf-preview';
+        preview.setAttribute('aria-label', 'Résumé preview');
+    
+        preview.style.cssText = `
+          width: min(900px, 92vw);
+          padding: 20px;
+          border: 0;
+          border-radius: 16px;
+          background: #101827;
+          color: white;
+        `;
+    
+        preview.innerHTML = `
+          <form method="dialog"
+                style="text-align: right; margin-bottom: 12px;">
+            <button type="submit" class="button" autofocus>
+              Close
+            </button>
+          </form>
+    
+          <iframe
+            src="assets/resume_mchen.pdf"
+            title="Résumé PDF"
+            style="display: block; width: 100%; height: 65vh;
+                   border: 0; background: white;">
+          </iframe>
+    
+          <p>
+            <a class="text-link" href="assets/resume_mchen.pdf"
+               target="_blank" rel="noopener">
+              Open PDF in a new tab
+            </a>
+          </p>
+        `;
+    
+        document.body.appendChild(preview);
+      }
+    
+      if (!preview.open) preview.showModal();
+    });
   });
 })();
 
